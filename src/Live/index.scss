@@ -1,0 +1,71 @@
+.app-btn {
+  width: 50px;
+}
+
+.name {
+  width: 100px;
+}
+
+.warning-btn, .success-btn {
+  width: 95px;
+  height: 32px;
+  border-radius: 8px;
+  padding: 4px 12px;
+  gap: 10px;
+  font-weight: 500;
+  cursor: auto;
+  @media (max-width: 600px) {
+    width: 64px;
+  }
+}
+
+.warning-btn {
+  background: #F5A100 !important;
+  border-color: #F5A100;
+  color: #000;
+}
+
+.success-btn {
+  background: #02D169 !important;
+  border-color: #02D169;
+  color: #000;
+}
+
+.ant-collapse-item.has-status .ant-collapse-header {
+  cursor: default !important;
+  margin-right: 12px;
+}
+
+.total-ranks {
+  display: flex;
+  gap: 13px;
+}
+
+.ant-collapse-item.has-status button {
+  cursor: auto;
+}
+
+.live-rank {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.detail-row.total {
+  margin-bottom: 12px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.ant-tabs-nav {
+  margin-bottom: 0 !important
+}
+
+.desktop-version .ant-table-wrapper {
+    margin-top: 96px !important;
+}
+
+.mobile-version .live-collapse {
+    margin-top: 48px !important;
+}

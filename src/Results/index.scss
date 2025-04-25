@@ -1,0 +1,23 @@
+.desktop-version {
+  display: block;
+  
+  @media (max-width: 600px) {
+    display: none;
+  }
+}
+
+.mobile-version {
+  display: none;
+  
+  @media (max-width: 600px) {
+    display: block;
+  }
+}
+
+.desktop-version .filter-container {
+    margin-top: 56px !important;
+}
+
+.mobile-version .results-collapse {
+    margin-top: 24px !important;
+}

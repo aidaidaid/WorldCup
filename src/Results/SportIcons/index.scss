@@ -1,0 +1,15 @@
+.sport-icons {
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    gap: 61px;
+    * {
+        cursor: pointer;
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+    @media (max-width: 600px) {
+        gap: 5%;
+    }
+}
