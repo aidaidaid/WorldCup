@@ -5,7 +5,7 @@ import { liveData } from '../JSON/liveData';
 
 const LiveTable = () => {
   const data = liveData.results.map(item => ({
-    key: item.bib,
+    key: item.id,
     ...item,
   }));
 

@@ -38,7 +38,7 @@ const Navbar = () => {
   ];
 
   return (
-    <Tabs defaultActiveKey="1" centered items={items} />
+    <Tabs defaultActiveKey="1" centered items={items} className='menu'/>
   )
 };
 

@@ -49,3 +49,21 @@
     margin-left: 16px;
   }
 }
+
+.menu .ant-tabs-tab {
+  font-size: 20px;
+  @media (max-width: 725px) {
+    font-size: 16px;
+  }
+}
+
+  @media (max-width: 850px) {
+  .desktop-version .ant-card-body {
+    margin-bottom: 85px;
+  }
+  .filter-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+}

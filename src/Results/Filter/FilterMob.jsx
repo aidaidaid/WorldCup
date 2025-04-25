@@ -72,7 +72,7 @@ const FilterMob = () => {
       </div>
       <Modal
         title="Select Filters"
-        visible={showModal}
+        open={showModal}
         onCancel={() => setShowModal(false)}
         footer={[
           <Button key="apply" onClick={() => setShowModal(false)}>

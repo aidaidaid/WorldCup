@@ -9,6 +9,7 @@ export const liveData = {
   "headers": ["App", "AA", "Team"],
   "results": [
     {
+      "id": 1,
       "sport": Floor,
       "team": "AZE",
       "bib": 212,
@@ -29,6 +30,7 @@ export const liveData = {
       "status": null
     },
     {
+      "id": 2,
       "sport": PH,
       "team": "RUS",
       "bib": 132,
@@ -43,6 +45,7 @@ export const liveData = {
       "status": "Wait"
     },
     {
+      "id": 3,
       "sport": Rings,
       "team": "TUR",
       "bib": 624,
@@ -63,6 +66,7 @@ export const liveData = {
       "status": null
     },
     {
+      "id": 4,
       "sport": VT,
       "team": "FRA",
       "bib": 624,
@@ -77,6 +81,7 @@ export const liveData = {
       "status": "Go"
     },
     {
+      "id": 5,
       "sport": PB,
       "team": "ISR",
       "bib": 401,
@@ -97,6 +102,7 @@ export const liveData = {
       "status": null
     },
     {
+      "id": 6,
       "sport": HB,
       "team": "GER",
       "bib": 102,
@@ -117,6 +123,7 @@ export const liveData = {
       "status": null
     },
     {
+      "id": 7,
       "sport": VT,
       "team": "GER",
       "bib": 102,
