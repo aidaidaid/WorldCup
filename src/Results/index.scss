@@ -1,15 +1,13 @@
 .desktop-version {
   display: block;
-  
-  @media (max-width: 600px) {
+  @media (max-width: 725px) {
     display: none;
   }
 }
 
 .mobile-version {
   display: none;
-  
-  @media (max-width: 600px) {
+  @media (max-width: 725px) {
     display: block;
   }
 }
